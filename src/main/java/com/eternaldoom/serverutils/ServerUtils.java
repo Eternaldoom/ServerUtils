@@ -12,5 +12,4 @@ public class ServerUtils extends Plugin {
 		this.getProxy().getPluginManager().registerCommand(this, new ListCommand());
 		this.getProxy().getPluginManager().registerCommand(this, new SayColoredCommand());
 	}
-
 }
